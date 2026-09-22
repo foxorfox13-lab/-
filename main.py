@@ -4303,7 +4303,7 @@ logging.basicConfig(
 _log = logging.getLogger("BotRunner")
 
 # ── قيم افتراضية لـ alwaysdata (تُستخدم فقط إذا لم تكن المتغيرات مضبوطة) ──
-os.environ.setdefault("BOT_MODE",      "webhook")
+os.environ.setdefault("BOT_MODE",      "polling")
 os.environ.setdefault("SERVER_ENGINE", "sanic")
 os.environ.setdefault("WEBHOOK_URL",   "https://betar13.alwaysdata.net")
 os.environ.setdefault("WEBHOOK_PATH",  "/webhook")
